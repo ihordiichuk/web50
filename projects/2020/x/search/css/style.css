@@ -12,53 +12,74 @@ body {
   padding: 20px;
 }
 
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 50px;
-  min-width: auto;
-  color: #1f1f1f;
-  font-style: normal;
-  font-variant-caps: normal;
-  font-variant-ligatures: normal;
-  font-variant-numeric: normal;
-  font-variant-east-asian: normal;
-  font-variant-alternates: normal;
-  font-size-adjust: none;
-  font-kerning: auto;
-  font-optical-sizing: auto;
-  font-feature-settings: normal;
-  font-variation-settings: normal;
-  font-variant-position: normal;
-  font-variant-emoji: normal;
-  font-weight: normal;
-  font-stretch: normal;
-  font-size: 13px;
-  line-height: 27px;
-  font-family: Roboto, Arial, sans-serif;
-  z-index: 986;
-  transition-behavior: normal;
-  transition-duration: 250ms;
-  transition-timing-function: ease;
-  transition-delay: 0s;
-  transition-property: box-shadow;
-  height: 48px;
-  position: relative;
+
+/* Header */
+header {
+  background-color: #f0f0f0;
+  /* Example header color */
+  padding: 20px;
 }
 
-.gmail {
-  height: 48px;
-  vertical-align: middle;
-  white-space: nowrap;
-  white-space-collapse: collapse;
-  text-wrap-mode: nowrap;
-  -webkit-box-align: center;
-  align-items: center;
+.container {
+  max-width: 960px;
+  /* Adjust as needed */
+  margin: 0 auto;
   display: flex;
-  -webkiy-user-select: none;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.logo img {
+  height: 40px;
+  /* Adjust logo height as needed */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+.sign-in a {
+  background-color: #007bff;
+  /* Example button color */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.waffle-button {
+  background: none;
+  /* Remove default button style */
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.waffle img {
+  height: 24px;
+  /* Adjust waffle icon size as needed */
+}
+
+.sign-in-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+
+
+
+
+/* Middle Block */
 .logo {
   margin: 50px 0;
 }
