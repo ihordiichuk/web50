@@ -47,6 +47,18 @@ body {
   position: relative;
 }
 
+.gmail {
+  height: 48px;
+  vertical-align: middle;
+  white-space: nowrap;
+  white-space-collapse: collapse;
+  text-wrap-mode: nowrap;
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+  -webkiy-user-select: none;
+}
+
 .logo {
   margin: 50px 0;
 }
